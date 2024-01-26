@@ -1,0 +1,95 @@
+h1 {
+    text-align: center;
+    font-family: "Anton", sans-serif;
+    font-size: 45px;
+}
+
+h2 {
+    font-family: "Cabin", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+h3 {
+    font-family: "Cabin", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+p {
+    font-family: "Noto Serif", serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+section {
+    margin: 50px auto;
+}
+
+article {
+    width: 75%;
+    margin: 20px auto;
+    padding: 20px;
+    border: solid black 3px;
+}
+
+.color {
+    display: inline-block;
+    width: 25%;
+    padding: 20px;
+    margin: 20px 15px;
+    text-align: center;
+}
+
+#blue {
+    background-color: rgb(120, 180, 235);
+}
+
+#green {
+    background-color: rgb(100, 200, 150);
+}
+
+#yellow {
+    background-color: rgb(250, 220, 75);
+}
+
+#red {
+    background-color: rgb(200, 80, 55);
+}
+
+.font {
+    display: inline-block;
+    width: 33%;
+    padding: 20px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.text-style {
+    margin: 40px auto;
+}
+
+.text-style h1 {
+    text-align: left;
+}
+
+#cabin p, #cabin h3{
+    font-family: "Cabin", sans-serif;
+}
+
+#rubik p, #rubic h3{
+    font-family: "Rubik", sans-serif;
+}
+
+#noto-serif p, #noto-serif h3 {
+    font-family: "Noto Serif", serif;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
